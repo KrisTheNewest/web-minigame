@@ -1,0 +1,23 @@
+{
+  "name": "web-minigame",
+  "version": "1.0.0",
+  "description": "a remake of a web event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrisTheNewest/web-minigame.git"
+  },
+  "keywords": [
+    "game",
+    "javascript"
+  ],
+  "author": "Krystina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KrisTheNewest/web-minigame/issues"
+  },
+  "homepage": "https://github.com/KrisTheNewest/web-minigame#readme"
+}
