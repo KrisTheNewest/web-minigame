@@ -3,11 +3,29 @@
   padding: 0;
   margin: 0;
 }
+h1 {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
+a {
+	all: unset;
+	color: darkturquoise;
+	cursor: pointer;
+}
+a:visited {
+	color: darkcyan;
+}
 
 body {
 	background-color: rgb(20, 20, 20);
-	color: beige;
+	color: aliceblue;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+nav {
+	display: flex;
+	flex-direction: column;
 }
 
 main {
@@ -22,4 +40,21 @@ main {
 	grid-auto-flow: column;
 	grid-auto-rows: 100%;
 	grid-auto-columns: calc(100%/3);
+}
+
+#tab-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#tab-list > a {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	flex: 1;
+	text-align: center;
+	border: 2px darkturquoise solid;
 }

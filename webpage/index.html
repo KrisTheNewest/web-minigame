@@ -9,7 +9,24 @@
 </head>
 <body>
 	<nav>
-		Mainpage
+		<div style="display: flex; align-items: center;">
+			<h1 style="margin-right: 8px;">Mainpage</h1>
+			<form style="margin-right: 8px;">
+				<input type="text" name="mainsearch" id="s">
+				<input type="submit" value="Search" formmethod="dialog">
+			</form>
+			<div>
+				<a href="/kontakt">Kontakt</a>
+				<a href="/fav">Ulubione</a>
+				<a href="/koszyk">koszyk</a>
+			</div>
+		</div>
+		<div id="tab-list">
+			<a href="/TAB1">PROMOCJE</a>
+			<a href="/TAB2">NOWOŚCI</a>
+			<a href="/TAB3">ZAKUPY</a>
+			<a href="/Tab4">PORADNIK</a>
+		</div>
 	</nav>
 	<main>
 		<div id="board">
@@ -18,5 +35,8 @@
 			<div style="background-color: yellowgreen;">cell3</div>
 		</div>
 	</main>
+	<footer>
+		Address
+	</footer>
 </body>
 </html>
